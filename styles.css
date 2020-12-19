@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{box-sizing: border-box;}
+
+.headtable{
+background-color:antiquewhite;
+width: 1200px;
+height: 50px;
+font-size: 15px;
+font-weight: bold;
+text-align: center;
+border-radius: 3px;
+margin:20px;
+float:right;
+padding-top: 20px;
+}
+
+.ht{
+font-size: 15px;
+font-weight: normal;
+margin-top: 15px;
+margin-bottom: auto;
+}
+
+.at{color:navajowhite;}
+
+body{
+font-family:Baskerville, "Palatino Linotype","Times New Roman","Gill Sans", "Gill Sans MT", Arial, "sans-serif";
+width:1000px;
+margin:10px;
+}
+
+header{
+background-color:crimson;
+color:white;
+width: 1200px;
+padding:3px;
+text-align: center;
+border-radius: 5px;
+margin: 10px;
+}
+
+a{
+text-decoration: none;
+color:black;
+}
+
+a:hover{color:violet;}
+
+a:active{text-decoration: none;}
+
+article{
+border-style:dotted;
+border-color:rosybrown;
+margin: 20px;
+padding: 40px;
+width:1200px;
+height:400px;
+float:left;
+overflow-x:hidden;
+overflow-y: auto;
+}
+
+img{
+width: 270px;
+float: right;
+}
+
+footer{
+display:inline-block;
+background-color:crimson;
+color:white;
+font-size: 12px;
+width:1200px;
+height: 30px;
+text-align:center;
+border-radius:3px;
+margin:10px;
+}
